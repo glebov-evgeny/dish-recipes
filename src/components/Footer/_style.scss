@@ -1,0 +1,24 @@
+.footer {
+    padding: 15px 0;
+    background-color: #000;
+    color: #fff;
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    a{
+        color: #fff;
+        font-size: 1.2rem;
+        line-height: 1rem;
+        transition: 0.3s;
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+    p{
+        color: #fff;
+        font-size: 1.2rem;
+        line-height: 1rem;
+    }
+}

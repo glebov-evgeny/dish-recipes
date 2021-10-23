@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { getAllCategories } from "../api";
 import { Preloader } from "../components/Preloader";
 import { CategoryList } from "../components/CategoryList";
-import { Search } from "../components/Search";
+import { Search } from "../components/Search/Search";
 
 function Home() {
   const [catalog, setCatalog] = useState([]);

@@ -1,0 +1,15 @@
+.header {
+  @media (max-width: 1199px) {
+  }
+  @media (max-width: 991px) {
+  }
+  @media (max-width: 768px) {
+    &__container {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+  }
+  @media (max-width: 576px) {
+
+  }
+}
