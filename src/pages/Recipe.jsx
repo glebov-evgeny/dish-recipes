@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useHistory } from "react-router-dom";
 import { getMealById } from "../api";
-import { Preloader } from "../components/Preloader";
+import { Preloader } from "../components/Preloader/Preloader";
 
 function Recipe() {
     const [recipe, setRecipe] = useState({})
@@ -12,7 +12,7 @@ function Recipe() {
     }, [id])
 
   return <>
-        <button className="btn" onClick={goBack}>
+        <button className="back__btn" onClick={goBack}>
         Go back
       </button>
       {!recipe.idMeal ? <Preloader /> : (

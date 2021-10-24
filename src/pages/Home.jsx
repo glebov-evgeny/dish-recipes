@@ -1,8 +1,8 @@
 import { useHistory, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { getAllCategories } from "../api";
-import { Preloader } from "../components/Preloader";
-import { CategoryList } from "../components/CategoryList";
+import { Preloader } from "../components/Preloader/Preloader";
+import { CategoryList } from "../components/Category/CategoryList";
 import { Search } from "../components/Search/Search";
 
 function Home() {

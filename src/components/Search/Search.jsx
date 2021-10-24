@@ -13,29 +13,6 @@ function Search({ cb = Function.prototype }) {
   };
 
   return (
-    // <div className="row">
-    //   <div className="input-field col s12">
-    //     <input
-    //       type="search"
-    //       id="search-field"
-    //       placeholder="Search"
-    //       onKeyDown={handleKey}
-    //       onChange={(e) => setValue(e.target.value)}
-    //       value={value}
-    //     />
-    //     <button
-    //       className="btn"
-    //       onClick={handleSubmit}
-    //       style={{
-    //         position: "absolute",
-    //         top: 0,
-    //         right: 0,
-    //       }}
-    //     >
-    //       Search
-    //     </button>
-    //   </div>
-    // </div>
       <div className="search">
         <div className="search__container">
           <input

@@ -1,10 +1,10 @@
-import {CategoryItem} from '../components/CategoryItem'
+import {CategoryItem} from '../Category/CategoryItem'
 
 
 function CategoryList({catalog = []}){
     return (
         
-        <div className="list">
+        <div className="category">
             {catalog.map(el => (
                 <CategoryItem key={el.idCategory} {...el} />
             ))}

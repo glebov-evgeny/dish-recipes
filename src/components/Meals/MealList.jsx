@@ -1,11 +1,11 @@
-import {MealItem} from '../components/MealItem'
+import {MealItem} from '../Meals/MealItem'
 
 function MealList({meals}){
     
 
     return (      
         
-        <div className="list">
+        <div className="meals">
             {meals.map(meal => (
                 <MealItem key={meal.idMeal} {...meal} />
             ))}
