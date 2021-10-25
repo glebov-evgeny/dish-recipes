@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dish-recipes/static/css/main.a8532bfa.chunk.css",
+    "main.css": "/dish-recipes/static/css/main.1ebd993a.chunk.css",
     "main.js": "/dish-recipes/static/js/main.79778934.chunk.js",
     "main.js.map": "/dish-recipes/static/js/main.79778934.chunk.js.map",
     "runtime-main.js": "/dish-recipes/static/js/runtime-main.7aa0bba9.js",
@@ -8,7 +8,7 @@
     "static/js/2.c48c558f.chunk.js": "/dish-recipes/static/js/2.c48c558f.chunk.js",
     "static/js/2.c48c558f.chunk.js.map": "/dish-recipes/static/js/2.c48c558f.chunk.js.map",
     "index.html": "/dish-recipes/index.html",
-    "static/css/main.a8532bfa.chunk.css.map": "/dish-recipes/static/css/main.a8532bfa.chunk.css.map",
+    "static/css/main.1ebd993a.chunk.css.map": "/dish-recipes/static/css/main.1ebd993a.chunk.css.map",
     "static/js/2.c48c558f.chunk.js.LICENSE.txt": "/dish-recipes/static/js/2.c48c558f.chunk.js.LICENSE.txt",
     "static/media/styles.scss": "/dish-recipes/static/media/Roboto-ThinItalic.f476452e.woff2",
     "static/media/preloader.1a5c50ab.svg": "/dish-recipes/static/media/preloader.1a5c50ab.svg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.7aa0bba9.js",
     "static/js/2.c48c558f.chunk.js",
-    "static/css/main.a8532bfa.chunk.css",
+    "static/css/main.1ebd993a.chunk.css",
     "static/js/main.79778934.chunk.js"
   ]
 }
